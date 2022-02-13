@@ -33,6 +33,9 @@ body{background-color: #000;}
             
             }
 
+
+            
+
             .logo{
                 
                 flex:1 1 auto; 
@@ -43,8 +46,10 @@ body{background-color: #000;}
                   .log{
                       width: 50%;
                       border-radius: 30%;
-                  }
-            
+                  }                
+
+           
+        
             
             .nav{
                 
@@ -53,6 +58,7 @@ body{background-color: #000;}
                
                 
             }
+
 
             .nav a {
                 color: #fff;
@@ -66,7 +72,9 @@ body{background-color: #000;}
              }
 
              .nav a:hover {
-                 color:black; }
+                 color:rgb(241, 245, 35);
+                 transform: scale(2);
+                 transition: 150ms;}
 
 
             .social{
