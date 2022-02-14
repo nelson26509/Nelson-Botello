@@ -13,17 +13,24 @@ flex-flow: column nowrap;
 width: 100%;
 }
 
+
 body{background-color: #000;}
     .header{
         background-image: url( ./Images/fondo3.jpg);
-        padding-top: 2cm;
+        padding-top: 1cm;
         background-position: center;
         background-attachment: contain;
         background-size:cover ;
         display: flex;
         flex-flow: column nowrap;
+        height: 5cm;
         
     }
+.h1index{
+    font-size: 30px;
+}
+
+    
         .menu{
             background-color: rgba(0, 0,0,.3);
             display: flex;
@@ -104,11 +111,13 @@ body{background-color: #000;}
             height: 300px;
             display: flex;
             align-items: center;
+            text-align: center;
             
             }
 
             h1{
                 background-color: rgba(0, 0,0,.5);
+                text-align: center;
             }
 
 
@@ -219,6 +228,7 @@ h1{
     text-align: center;
     line-height: 1.6;
     font-weight: 300;
+    font-size:  80px;
     
 }
 h4{
