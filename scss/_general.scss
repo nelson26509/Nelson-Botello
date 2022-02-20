@@ -1,0 +1,57 @@
+*{margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;}
+    
+    .margen-interno{
+        margin: 0 50px;
+    }
+    
+    .padre{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    }
+    
+    body{background-color: #000;}
+
+
+
+
+    .pagos{
+        margin-top: 200px;
+                    }
+                   
+        
+.section{ 
+background-color: rgba(8, 8, 8, 0.952);
+ display: flex;        
+        
+}
+
+
+.articulos{
+background-color: rgba(0, 0, 0, 0.925);
+flex: 2 1 40%;
+display: flex;
+flex-flow: row wrap ;
+                    
+                }
+        
+ .article img{
+    width:  100%;
+}
+        
+.carousel{
+ width: 90%;
+}
+        
+        
+.map{
+display: flex;
+justify-content: center;
+}
+.bimag {
+border-radius: 15%;
+}
+        

@@ -1,0 +1,129 @@
+.texto-principal{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    
+    
+    }
+.titulo-carrusel{
+    
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: rgb(138, 9, 9);
+        font-weight: 300;
+        font-size: 25px;
+        letter-spacing: 1px;
+        text-shadow: 1px 0 0 rgb(252, 255, 61);
+         
+}
+    h1{
+        background-color: rgba(0, 0,0,.5);
+        text-align: center;
+    }
+
+    h3 {
+        color: wheat;
+        font-size: 25px;
+        padding: 10px 0;
+        
+        
+    }
+    h1{
+        font-family: 'Lobster', cursive;
+        color: antiquewhite;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 300;
+        
+    }
+    h4{
+        font-family: 'Lobster', cursive;
+        color: antiquewhite;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 300;
+        font-size: 22px;
+    
+    }
+    h3{
+        font-family: 'Lobster', cursive;
+        color: antiquewhite;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 300;
+    
+    }
+    .h3-navegacion{
+        font-family: 'Lobster', cursive;
+        color: rgb(15, 13, 9);
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 300;
+    }
+    .precios{
+        font-family: 'Lobster', cursive;
+        color: rgba(0, 0, 0, 0.89);
+        font-weight: 300;
+        font-size: 50px;
+        letter-spacing: 1px;
+        text-align: center;
+        background-color: antiquewhite;
+}
+.col p{
+font-family: 'Lobster', cursive;
+        color: wheat;
+        font-weight: 300;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-align: center;
+
+
+}
+.tmap{
+font-family: 'Lobster', cursive;
+        color: wheat;
+        font-weight: 300;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-align: center; }
+
+        .navegacion a {
+            font-family: 'Lobster', cursive;
+            color: aliceblue;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: 1px;
+            
+            
+        }
+
+        .navegacion p{
+            font-family: 'Lobster', cursive;
+            color: rgb(0, 0, 0);
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: 1px;
+            background-color: rgba(255, 255, 255, 0.534);
+            text-align: center;
+            margin-top: -20px;
+            
+            
+        }
+
+        .article{
+            background-color: rgba(0, 0,0,.5);
+            flex: 1 1 45%;
+            font-family: 'Lobster', cursive;
+            color: aliceblue;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin: 10px 10px 0 0;     
+            
+
+        }
+
+p::selection{
+ background-color: brown;
+}
+        
