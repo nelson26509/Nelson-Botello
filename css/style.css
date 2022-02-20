@@ -321,4 +321,18 @@ p::selection {
   background-color: brown;
 }
 
+.aside {
+  background-color: rgba(14, 12, 12, 0.63);
+  flex: 1 1 auto;
+  width: 20%;
+}
+
+.aside img {
+  width: 100%;
+}
+
+.publicidad {
+  background-color: rgba(101, 54, 196, 0.541);
+}
+
 /*# sourceMappingURL=style.css.map */
