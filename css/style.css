@@ -36,14 +36,6 @@
 }
 
 .nav a {
-  color: #fff;
-  font-size: 22px;
-  text-transform: uppercases;
-  padding: 0 20px;
-  letter-spacing: 2px;
-  display: inline;
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: "Lobster", cursive;
   cursor: pointer;
 }
 
@@ -205,33 +197,10 @@ body {
   align-items: center;
 }
 
-.titulo-carrusel {
-  text-align: center;
-  font-family: "Lobster", cursive;
-  color: #8a0909;
-  font-weight: 300;
-  font-size: 25px;
-  letter-spacing: 1px;
-  text-shadow: 1px 0 0 #fcff3d;
-}
-
-h1 {
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-}
-
 h3 {
   color: wheat;
   font-size: 25px;
   padding: 10px 0;
-}
-
-h1 {
-  font-family: "Lobster", cursive;
-  color: antiquewhite;
-  text-align: center;
-  line-height: 1.6;
-  font-weight: 300;
 }
 
 h4 {
@@ -306,17 +275,6 @@ h3 {
   margin-top: -20px;
 }
 
-.article {
-  background-color: rgba(0, 0, 0, 0.5);
-  flex: 1 1 45%;
-  font-family: "Lobster", cursive;
-  color: aliceblue;
-  font-weight: 300;
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin: 10px 10px 0 0;
-}
-
 p::selection {
   background-color: brown;
 }
@@ -333,6 +291,48 @@ p::selection {
 
 .publicidad {
   background-color: rgba(101, 54, 196, 0.541);
+}
+
+.nav a {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercases;
+  padding: 0 20px;
+  letter-spacing: 2px;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lobster", cursive;
+}
+
+.titulo-carrusel {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: #8a0909;
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-shadow: 1px 0 0 #fcff3d;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  color: antiquewhite;
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.article {
+  background-color: rgba(0, 0, 0, 0.5);
+  flex: 1 1 45%;
+  font-family: "Lobster", cursive;
+  color: aliceblue;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 10px 10px 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */
