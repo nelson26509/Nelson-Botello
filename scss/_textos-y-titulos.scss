@@ -7,19 +7,10 @@
     }
 .titulo-carrusel{
     
-        text-align: center;
-        font-family: 'Lobster', cursive;
-        color: rgb(138, 9, 9);
-        font-weight: 300;
-        font-size: 25px;
-        letter-spacing: 1px;
-        text-shadow: 1px 0 0 rgb(252, 255, 61);
+        @extend %titulos-carrusel;
          
 }
-    h1{
-        background-color: rgba(0, 0,0,.5);
-        text-align: center;
-    }
+  
 
     h3 {
         color: wheat;
@@ -29,11 +20,7 @@
         
     }
     h1{
-        font-family: 'Lobster', cursive;
-        color: antiquewhite;
-        text-align: center;
-        line-height: 1.6;
-        font-weight: 300;
+        @extend %h1;
         
     }
     h4{
@@ -111,14 +98,7 @@ font-family: 'Lobster', cursive;
         }
 
         .article{
-            background-color: rgba(0, 0,0,.5);
-            flex: 1 1 45%;
-            font-family: 'Lobster', cursive;
-            color: aliceblue;
-            font-weight: 300;
-            font-size: 20px;
-            letter-spacing: 1px;
-            margin: 10px 10px 0 0;     
+            @extend %articulos;  
             
 
         }

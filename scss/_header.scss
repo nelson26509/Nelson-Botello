@@ -41,14 +41,7 @@
 
 
     .nav a {
-        color: #fff;
-        font-size: 22px;
-        text-transform: uppercases;
-        padding: 0 20px;
-        letter-spacing:2px;
-        display: inline;
-        font-family: Arial, Helvetica, sans-serif;
-        font-family: 'Lobster', cursive;
+        @extend %textos-nav;
         cursor: pointer;
      }
 
