@@ -191,6 +191,13 @@ body {
     flex-wrap: nowrap;
   }
 }
+
+@media all and (max-width: 800px){
+  .aside {
+      display: none;
+     
+  }
+}
 .texto-principal {
   height: 300px;
   display: flex;
