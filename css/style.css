@@ -172,12 +172,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .red{
-    display: block;
-    text-align: center;
-    margin left: auto;
-    margin right: auto;
-  }
+  
 }
 @media all and (min-width: 300px) and (max-width: 400px) {
   .red {
