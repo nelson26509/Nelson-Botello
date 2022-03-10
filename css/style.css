@@ -55,14 +55,17 @@
   justify-content: right;
   width: 100%;
 }
-
+.nosotras{
+  width: 100%;
+  padding-top: 150px;
+}
 .red {
   display: flex;
-  width: 100%;
+  width: 60%;
 }
 
 .navegacion {
-  background-color: rgba(253, 242, 92, 0.89);
+  background-color: rgba(230, 230, 230, 0.89);
   flex: 1 1 100%;
   margin: 10px 10px 0 0px;
   height: 200px;
@@ -105,8 +108,11 @@ body {
   flex-flow: row wrap;
 }
 
-.article img {
-  width: 100%;
+.article img{
+
+width: 100%;
+text-align: center;
+
 }
 
 .carousel {
@@ -219,11 +225,13 @@ body {
   align-items: center;
 }
 
+
 h3 {
   color: wheat;
   font-size: 25px;
   padding: 10px 0;
 }
+
 
 h4 {
   font-family: "Lobster", cursive;
@@ -241,6 +249,11 @@ h3 {
   line-height: 1.6;
   font-weight: 300;
 }
+ .lunch-text:hover {
+  color: cyan;
+  transform: scale(2);
+  transition: 150ms;
+  width: 100%; }
 
 .h3-navegacion {
   font-family: "Lobster", cursive;
@@ -285,6 +298,7 @@ h3 {
   font-size: 20px;
   letter-spacing: 1px;
 }
+
 
 .navegacion p {
   font-family: "Lobster", cursive;
@@ -345,6 +359,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
 
 .article {
   background-color: rgba(0, 0, 0, 0.5);
