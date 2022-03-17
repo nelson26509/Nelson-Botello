@@ -133,6 +133,7 @@ text-align: center;
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  border-top: solid 3px red;
 }
 
 .pie {
