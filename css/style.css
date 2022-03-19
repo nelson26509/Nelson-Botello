@@ -18,6 +18,7 @@
 
 .logo {
   flex: 1 1 auto;
+  max-width: 250px;
 }
 
 .logo a {
@@ -28,24 +29,26 @@
 .log {
   width: 100%;
   border-radius: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .nav {
   flex: 5 1 auto;
   display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 
 .nav a {
   cursor: pointer;
+  width: 100%;
+  justify-content: center;
 }
 
 .nav a:hover {
-  color: #f1f523;
-  transform: scale(2);
-  transition: 150ms;
+  color: #ddc53b;
+  transform: scale(1.2);
+  transition: 200ms;
   width: 100%;
 }
 
@@ -54,18 +57,16 @@
   display: flex;
   justify-content: right;
   width: 100%;
+  max-width: 200px;
 }
-.nosotras{
-  width: 100%;
-  padding-top: 150px;
-}
+
 .red {
   display: flex;
-  width: 60%;
+  width: 100%;
 }
 
 .navegacion {
-  background-color: rgba(230, 230, 230, 0.89);
+  background-color: rgba(253, 242, 92, 0.89);
   flex: 1 1 100%;
   margin: 10px 10px 0 0px;
   height: 200px;
@@ -108,11 +109,8 @@ body {
   flex-flow: row wrap;
 }
 
-.article img{
-
-width: 100%;
-text-align: center;
-
+.article img {
+  width: 100%;
 }
 
 .carousel {
@@ -133,7 +131,7 @@ text-align: center;
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  border-top: solid 3px red;
+  border-top: solid 2px red;
 }
 
 .pie {
@@ -165,28 +163,16 @@ text-align: center;
     justify-content: center;
   }
 }
-@media all and (min-width: 200px) and (max-width: 800px) {
+@media all and (min-width: 300px) and (max-width: 800px) {
   .aside {
     width: 100%;
   }
-  .red {
-    width: 60%;
-  }
-}
-@media all and (min-width: 200px) and (max-width: 350px) {
-  .social {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
 }
 @media all and (min-width: 300px) and (max-width: 400px) {
   .red {
     width: 50%;
   }
 }
-
 @media all and (max-width: 600px) {
   .articulos {
     flex-direction: column;
@@ -207,17 +193,20 @@ text-align: center;
     display: none;
   }
 }
+@media all and (max-width: 800px) {
+  .aside {
+    display: none;
+  }
+}
+@media all and (min-width: 600px) and (max-width: 1200px) {
+  .navegacion {
+    padding-bottom: 300px;
+  }
+}
 @media all and (min-width: 1000px) {
   .nav {
     display: flex;
     flex-wrap: nowrap;
-  }
-}
-
-@media all and (max-width: 800px){
-  .aside {
-      display: none;
-     
   }
 }
 .texto-principal {
@@ -226,13 +215,11 @@ text-align: center;
   align-items: center;
 }
 
-
 h3 {
   color: wheat;
   font-size: 25px;
   padding: 10px 0;
 }
-
 
 h4 {
   font-family: "Lobster", cursive;
@@ -250,11 +237,6 @@ h3 {
   line-height: 1.6;
   font-weight: 300;
 }
- .lunch-text:hover {
-  color: cyan;
-  transform: scale(2);
-  transition: 150ms;
-  width: 100%; }
 
 .h3-navegacion {
   font-family: "Lobster", cursive;
@@ -299,7 +281,6 @@ h3 {
   font-size: 20px;
   letter-spacing: 1px;
 }
-
 
 .navegacion p {
   font-family: "Lobster", cursive;
@@ -360,7 +341,6 @@ h1 {
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
-
 
 .article {
   background-color: rgba(0, 0, 0, 0.5);
