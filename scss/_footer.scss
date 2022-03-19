@@ -3,10 +3,10 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    border-top: solid 2px red;
     }
         .pie{ background-color: rgba(236, 232, 230, 0.918);
             text-align: center;
-            
             }
         .pie a{
             font-family: 'Lobster', cursive;
@@ -14,5 +14,5 @@
             font-weight: 300;
             font-size: 15px;
             letter-spacing: 1px;
-            text-align: center;
+            text-align: center;  
         }
